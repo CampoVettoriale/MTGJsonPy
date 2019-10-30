@@ -5,17 +5,19 @@ import requests
 # Given a list of numbers in the input.txt file, for each number, print the card's infos.
 path =os.path.dirname(__file__)
 input = 'input.txt'
-output= 'output.txt'
+output = 'output.txt'
 numberList = [line.rstrip('\n') for line in open(path+"/"+input)]
-file_output = open(path +"/"+ output, "w")
-
+file_output = open(path + "/" + output, "w")
+price = 0
+foil_price = 0
+date = "2019-10-20"
 #Se l'elemento della lista non è un numero, apri quel file, altrimenti cerca quel numero
 for element in numberList:
     if not element.isdigit():
         json_input = element
         file_output.write(element+"\n")
         try:
-            json_file = open(path +"/"+ json_input, encoding="utf8")
+            json_file = open(path + "/" + json_input, encoding="utf8")
             json_set = json.load(json_file)
             json_cards = json_set['cards']
             print(element)
@@ -45,10 +47,12 @@ for element in numberList:
                          + card['originalType']+" "
                 if "Creature" in card['originalType']:
                     result += card["power"] + "/" + card["toughness"]
-                result += "\n"+card['originalText']+"\n"
+                result += "\n"+card['originalText']+"\n"+str(card["prices"]["paper"]["2019-10-20"])+"$ ("+str(card["prices"]["paperFoil"]["2019-10-20"])+")$"
+                price += card["prices"]["paper"][date]
+                foil_price += card["prices"]["paperFoil"][date]
                 print(result)
                 file_output.write(result)
-
-
+print("Prezzo totale:"+str(price)+"$")
+print("Prezzo totale foil:"+str(foil_price)+"$")
 
 
