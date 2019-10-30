@@ -1,92 +1,25 @@
 ISD.json
 3: Angelic Overseer {3}{W}{W}	
-Creature — Angel Flying
+Creature — Angel 5/3
+Flying
 As long as you control a Human, Angelic Overseer has hexproof and is indestructible.
 6: Champion of the Parish {W}	
-Creature — Human Soldier Whenever another Human enters the battlefield under your control, put a +1/+1 counter on Champion of the Parish.
-4: Avacynian Priest {1}{W}	
-Creature — Human Cleric {1}, {T}: Tap target non-Human creature.
+Creature — Human Soldier 1/1
+Whenever another Human enters the battlefield under your control, put a +1/+1 counter on Champion of the Parish.
+44: Back from the Brink {4}{U}{U}	
+Enchantment 
+Exile a creature card from your graveyard and pay its mana cost: Put a token onto the battlefield that's a copy of that card. Activate this ability only any time you could cast a sorcery.
 39: Unruly Mob {1}{W}	
-Creature — Human Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.
-12: Elder Cathar {2}{W}	
-Creature — Human Soldier When Elder Cathar dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead.
-41: Village Bell-Ringer {2}{W}	
-Creature — Human Scout Flash (You may cast this spell any time you could cast an instant.)
-When Village Bell-Ringer enters the battlefield, untap all creatures you control.
-3: Angelic Overseer {3}{W}{W}	
-Creature — Angel Flying
-As long as you control a Human, Angelic Overseer has hexproof and is indestructible.
-6: Champion of the Parish {W}	
-Creature — Human Soldier Whenever another Human enters the battlefield under your control, put a +1/+1 counter on Champion of the Parish.
-4: Avacynian Priest {1}{W}	
-Creature — Human Cleric {1}, {T}: Tap target non-Human creature.
-39: Unruly Mob {1}{W}	
-Creature — Human Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.
-12: Elder Cathar {2}{W}	
-Creature — Human Soldier When Elder Cathar dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead.
-41: Village Bell-Ringer {2}{W}	
-Creature — Human Scout Flash (You may cast this spell any time you could cast an instant.)
-When Village Bell-Ringer enters the battlefield, untap all creatures you control.
-3: Angelic Overseer {3}{W}{W}	
-Creature — Angel Flying
-As long as you control a Human, Angelic Overseer has hexproof and is indestructible.
-6: Champion of the Parish {W}	
-Creature — Human Soldier Whenever another Human enters the battlefield under your control, put a +1/+1 counter on Champion of the Parish.
-4: Avacynian Priest {1}{W}	
-Creature — Human Cleric {1}, {T}: Tap target non-Human creature.
-39: Unruly Mob {1}{W}	
-Creature — Human Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.
-12: Elder Cathar {2}{W}	
-Creature — Human Soldier When Elder Cathar dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead.
-41: Village Bell-Ringer {2}{W}	
-Creature — Human Scout Flash (You may cast this spell any time you could cast an instant.)
-When Village Bell-Ringer enters the battlefield, untap all creatures you control.
-3: Angelic Overseer {3}{W}{W}	
-Creature — Angel Flying
-As long as you control a Human, Angelic Overseer has hexproof and is indestructible.
-6: Champion of the Parish {W}	
-Creature — Human Soldier Whenever another Human enters the battlefield under your control, put a +1/+1 counter on Champion of the Parish.
-4: Avacynian Priest {1}{W}	
-Creature — Human Cleric {1}, {T}: Tap target non-Human creature.
-39: Unruly Mob {1}{W}	
-Creature — Human Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.
-12: Elder Cathar {2}{W}	
-Creature — Human Soldier When Elder Cathar dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead.
-41: Village Bell-Ringer {2}{W}	
-Creature — Human Scout Flash (You may cast this spell any time you could cast an instant.)
-When Village Bell-Ringer enters the battlefield, untap all creatures you control.
+Creature — Human 1/1
+Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.
+
 DKA.json
-3: Break of Day {1}{W}	
-Instant Creatures you control get +1/+1 until end of turn.
-Fateful hour — If you have 5 or less life, those creatures also are indestructible this turn. (Lethal damage and effects that say "destroy" don't destroy them.)
-6: Elgaud Inquisitor {3}{W}	
-Creature — Human Cleric Lifelink (Damage dealt by this creature also causes you to gain that much life.)
-When Elgaud Inquisitor dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
-4: Burden of Guilt {W}	
-Enchantment — Aura Enchant creature
-{1}: Tap enchanted creature.
-39: Havengul Runebinder {2}{U}{U}	
-Creature — Human Wizard {2}{U}, {T}, Exile a creature card from your graveyard: Put a 2/2 black Zombie creature token onto the battlefield, then put a +1/+1 counter on each Zombie creature you control.
+64: Gravecrawler {B}	
+Creature — Zombie 2/1
+Gravecrawler can't block.
+You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+
 12: Lingering Souls {2}{W}	
-Sorcery Put two 1/1 white Spirit creature tokens with flying onto the battlefield.
+Sorcery 
+Put two 1/1 white Spirit creature tokens with flying onto the battlefield.
 Flashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-41: Increasing Confusion {X}{U}	
-Sorcery Target player puts the top X cards of his or her library into his or her graveyard. If Increasing Confusion was cast from a graveyard, that player puts twice that many cards into his or her graveyard instead.
-Flashback {X}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-3: Break of Day {1}{W}	
-Instant Creatures you control get +1/+1 until end of turn.
-Fateful hour — If you have 5 or less life, those creatures also are indestructible this turn. (Lethal damage and effects that say "destroy" don't destroy them.)
-6: Elgaud Inquisitor {3}{W}	
-Creature — Human Cleric Lifelink (Damage dealt by this creature also causes you to gain that much life.)
-When Elgaud Inquisitor dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
-4: Burden of Guilt {W}	
-Enchantment — Aura Enchant creature
-{1}: Tap enchanted creature.
-39: Havengul Runebinder {2}{U}{U}	
-Creature — Human Wizard {2}{U}, {T}, Exile a creature card from your graveyard: Put a 2/2 black Zombie creature token onto the battlefield, then put a +1/+1 counter on each Zombie creature you control.
-12: Lingering Souls {2}{W}	
-Sorcery Put two 1/1 white Spirit creature tokens with flying onto the battlefield.
-Flashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-41: Increasing Confusion {X}{U}	
-Sorcery Target player puts the top X cards of his or her library into his or her graveyard. If Increasing Confusion was cast from a graveyard, that player puts twice that many cards into his or her graveyard instead.
-Flashback {X}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
