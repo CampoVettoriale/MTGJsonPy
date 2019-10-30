@@ -11,16 +11,17 @@ file_output = open(path + "/" + output, "w")
 price = 0
 foil_price = 0
 date = "2019-10-20"
+#json_set["meta"]["pricesDate"]?
 #Se l'elemento della lista non è un numero, apri quel file, altrimenti cerca quel numero
 for element in numberList:
     if not element.isdigit():
         json_input = element
-        file_output.write(element+"\n")
         try:
             json_file = open(path + "/" + json_input, encoding="utf8")
             json_set = json.load(json_file)
             json_cards = json_set['cards']
-            print(element)
+            print(json_set["mcmName"])
+            file_output.write(json_set["mcmName"] + "\n")
         except:
             print ("File non trovato, provo a scaricarlo?...")
             # Boh se non trovo il file provo a scaricarlo?

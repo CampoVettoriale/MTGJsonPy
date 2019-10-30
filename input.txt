@@ -3,8 +3,4 @@ ISD.json
 6
 44
 39
-
-DKA.json
-64
-
-12
+78
