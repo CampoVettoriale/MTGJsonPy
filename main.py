@@ -11,20 +11,23 @@ for element in numberList:
     if not element.isdigit():
         json_input = element
         file_output.write(element+"\n")
-        json_file = open(path + json_input, encoding="utf8")
-        json_set = json.load(json_file)
-        json_cards = json_set['cards']
+        try:
+            json_file = open(path + json_input, encoding="utf8")
+            json_set = json.load(json_file)
+            json_cards = json_set['cards']
+            print(element)
+        except:
+            print ("File non trovato")
     else:
-        for targetNumber in numberList:
-            for card in json_cards:
-                if card['number'] == targetNumber:
-                    result = card['number'] + ": " + card['name'] + " " + card['manaCost'] + "\t\n" \
-                             + card['originalType']+" "
-                    if "Crature" in card['originalType']:
-                        result += card["power"] + "/" + card["toughness"] + "\n"
-                    result += card['originalText']+"\n"
-                    print(result)
-                    file_output.write(result)
+        for card in json_cards:
+            if card['number'] == element:
+                result = card['number'] + ": " + card['name'] + " " + card['manaCost'] + "\t\n" \
+                         + card['originalType']+" "
+                if "Creature" in card['originalType']:
+                    result += card["power"] + "/" + card["toughness"]
+                    result += "\n"+card['originalText']+"\n"
+                print(result)
+                file_output.write(result)
 
 
 
