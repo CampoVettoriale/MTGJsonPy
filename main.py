@@ -57,3 +57,25 @@ print("Prezzo totale:"+str(price)+"$")
 print("Prezzo totale foil:"+str(foil_price)+"$")
 
 
+def megaaggronshiny(self):
+        model = tf.keras.models.Sequential()
+        
+        # encoder
+        model.add(tf.keras.layers.Conv2D(16, (3,3), activation = 'relu', padding='same', 
+                                   input_shape = (self.rows, self.cols, self.channels)))
+        model.add(tf.keras.layers.BatchNormalization())
+        model.add(tf.keras.layers.MaxPooling2D((2,2), padding='same'))
+        
+        model.add(tf.keras.layers.Conv2D(32, (3,3), activation = 'relu', padding='same'))
+        model.add(tf.keras.layers.BatchNormalization())
+        model.add(tf.keras.layers.MaxPooling2D((2,2), padding='same'))
+        
+        model.add(tf.keras.layers.Conv2D(64, (3,3), activation = 'relu', padding='same'))
+        model.add(tf.keras.layers.BatchNormalization())
+        model.add(tf.keras.layers.MaxPooling2D((4,4), padding='same'))
+        
+        model.add(tf.keras.layers.Conv2D(128, (3,3), activation = 'relu', padding='same'))
+        model.add(tf.keras.layers.BatchNormalization())
+        model.add(tf.keras.layers.MaxPooling2D((4,4), padding='same'))
+            
+
